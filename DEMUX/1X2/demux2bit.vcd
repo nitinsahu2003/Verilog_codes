@@ -1,0 +1,38 @@
+$date
+	Mon Jul 21 14:37:27 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module demux1to2_tb $end
+$var wire 1 ! y1 $end
+$var wire 1 " y0 $end
+$var reg 1 # in $end
+$var reg 1 $ sel $end
+$scope module DUT $end
+$var wire 1 # in $end
+$var wire 1 $ sel $end
+$var reg 1 " y0 $end
+$var reg 1 ! y1 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+0#
+0"
+0!
+$end
+#10
+1!
+1$
+#20
+1#
+#30
