@@ -1,0 +1,62 @@
+$date
+	Thu Jul 24 12:51:38 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module comparator2bit_tb $end
+$var wire 1 ! A_lt_b $end
+$var wire 1 " A_gt_b $end
+$var wire 1 # A_eq_b $end
+$var reg 2 $ A [1:0] $end
+$var reg 2 % B [1:0] $end
+$scope module DUT $end
+$var wire 2 & A [1:0] $end
+$var wire 2 ' B [1:0] $end
+$var reg 1 # A_eq_b $end
+$var reg 1 " A_gt_b $end
+$var reg 1 ! A_lt_b $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+b0 $
+1#
+0"
+0!
+$end
+#10
+0#
+1"
+b1 $
+b1 &
+#20
+1!
+0"
+b11 %
+b11 '
+b10 $
+b10 &
+#30
+0!
+1"
+b10 %
+b10 '
+b11 $
+b11 &
+#40
+1#
+0"
+b10 $
+b10 &
+#50
